@@ -1,0 +1,42 @@
+@import './utils';
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: $white;
+    cursor: url('../image/system/cursor.png'), auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    color: $white;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+button {
+    @extend %zeroDistance;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}

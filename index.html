@@ -1,14 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@500&family=Montserrat:wght@100..900&family=Seymour+One&display=swap" rel="stylesheet">
-    <link href="./src/css/style.css" rel="stylesheet">
-    <title>Морозиво</title>
-  </head>
-  <body>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@500&family=Montserrat:wght@100..900&family=Seymour+One&display=swap"
+    rel="stylesheet">
+  <link href="./src/css/mod-normalize.css" rel="stylesheet">
+  <link href="./src/css/style.css" rel="stylesheet">
+  <title>Морозиво</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <a class="logo" href="#">
+          <svg class="logo-svg">
+            <use xlink:href="./src/icon/symbol-defs.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">How it’s made?</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Our products</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="burger" title="burger button">
+          <svg class="burger-btn-item-svg">
+            <use xlink:href="./src/icon/symbol-defs.svg#icon-burger-svg"></use>
+          </svg>
+          <svg class="burger-btn-item-svg">
+            <use xlink:href="./src/icon/symbol-defs.svg#icon-burger-svg"></use>
+          </svg>
+          <svg class="burger-btn-item-svg">
+            <use xlink:href="./src/icon/symbol-defs.svg#icon-burger-svg"></use>
+          </svg>
+        </button>
+        <button class="header__modal-btn">
+          Buy now
+          <svg class="btn-svg">
+            <use xlink:href="./src/icon/symbol-defs.svg#icon-ep_arrow-right-bold"></use>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+</body>
 </html>

@@ -1,3 +1,41 @@
-p{
-    font-family: "DM Sans", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  cursor: url("../image/system/cursor.png"), auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  color: #fff;
+  border: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
 }

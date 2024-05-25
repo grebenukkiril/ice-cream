@@ -1,0 +1,16 @@
+// Variables
+$white: #fff;
+
+// Mixins
+@mixin displayFlex($justifyContent: center, $alignItems: center, $flexDirection: row ){
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-direction: $flexDirection;
+}
+
+// Placeholders
+%zeroDistance{
+    margin: 0;
+    padding: 0;
+}
